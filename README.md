@@ -4,13 +4,13 @@ Classify images into 2-3 categories (e.g., Apple, Banana, Orange) using Azure Cu
 <img width="1688" height="1125" alt="image" src="https://github.com/user-attachments/assets/93fe85e1-14a3-48a8-9465-a4ac4fa9956c" />
 
 
-✅ Project: _Fruit Image Classification using Azure Custom Vision_
+**✅ Project:** _Fruit Image Classification using Azure Custom Vision_
 
-🧠 Type: _Supervised ML / Computer Vision_
+**🧠 Type:** _Supervised ML / Computer Vision_
 
-🛠️ Tool: _Azure Custom Vision_
+**🛠️ Tool:** _Azure Custom Vision_
 
-🔤 Categories: _Apple, Banana, Orange_
+**🔤 Categories:** _Apple, Banana, Orange_
 
 **🔗 Prerequisites**
           
