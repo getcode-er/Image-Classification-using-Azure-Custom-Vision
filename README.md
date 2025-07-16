@@ -8,7 +8,7 @@ Classify images into 2-3 categories (e.g., Apple, Banana, Orange) using Azure Cu
 
 **🧠 Type:** _Supervised ML / Computer Vision_
 
-**🛠️ Tool:** _Azure Custom Vision_
+**🛠️ Tool:** _Azure Custom Vision, Python_
 
 **🔤 Categories:** _Apple, Banana, Orange_
 
