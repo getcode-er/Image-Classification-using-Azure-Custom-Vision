@@ -1,60 +1,61 @@
 # Image-Classification-using-Azure-Custom-Vision
 Classify images into 2-3 categories (e.g., Apple, Banana, Orange) using Azure Custom Vision and test prediction via Python
 
-✅ Project: Fruit Image Classification using Azure Custom Vision
-🧠 Type: Supervised ML / Computer Vision
-🛠️ Tool: Azure Custom Vision
-🔤 Categories: Apple, Banana, Orange
-
-🔗 Prerequisites
-✅ Microsoft Azure account (free tier is sufficient)
-✅ Python installed
-✅ customvision SDK installed
-✅ Create a Custom Vision Resource on Azure (both Training and Prediction)
+<img width="1688" height="1125" alt="image" src="https://github.com/user-attachments/assets/93fe85e1-14a3-48a8-9465-a4ac4fa9956c" />
 
 
-💡 Aim to do
-1.Set up Azure Custom Vision.
+✅ Project: _Fruit Image Classification using Azure Custom Vision_
 
-2.Upload training images via Python.
+🧠 Type: _Supervised ML / Computer Vision_
 
-3.Train the model using Azure SDK.
+🛠️ Tool: _Azure Custom Vision_
 
-4.Test with new images using Azure Prediction API.
+🔤 Categories: _Apple, Banana, Orange_
 
-5.Show accuracy + visualize prediction.
+**🔗 Prerequisites**
+          
+          ✅ Microsoft Azure account (free tier is sufficient)
+          ✅ Python installed
+          ✅ customvision SDK installed
+          ✅ Create a Custom Vision Resource on Azure (both Training and Prediction)
 
 
-✅ STEP 1: Install Required Libraries
+**💡 Aim to do**
+
+          1.Set up Azure Custom Vision.
+          2.Upload training images via Python.
+          3.Train the model using Azure SDK.
+          4.Test with new images using Azure Prediction API.
+          5.Show accuracy + visualize prediction.
+
+
+_**✅ STEP 1: Install Required Libraries**_
+         
           _pip install opencv-python numpy matplotlib scikit-learn_
 
-📁 STEP 2: Project Folder Structure
+_**📁 STEP 2: Project Folder Structure**_
+
           _fruit-classification/
-│
-├── apple/        # 10-15 images of apples
-├── banana/       # 10-15 images of bananas
-├── orange/       # 10-15 images of oranges
-├── test/         # Test images
-├── fruit_classifier.py_
-You can download free fruit images from : https://www.kaggle.com/moltean/fruits
+          │
+          ├── apple/        # 10-15 images of apples
+          ├── banana/       # 10-15 images of bananas
+          ├── orange/       # 10-15 images of oranges
+          ├── test/         # Test images
+          ├── _train_fruit_classifier.py_
+_You can download free fruit images from : https://www.kaggle.com/moltean/fruits_
 
-🧠 STEP 3: Python Code to Train the Classifier
+_**🧠 STEP 3: Python Code to Train the Classifier**_
 
-Save this as fruit_classifier.py:
+          Save the attached _fruit_classifier.py_
 
 
-🖼️ STEP 4: Test the Model on New Image
-Add this to the same file or create a new script:
+_**🖼️ STEP 4: Test the Model on New Image**_
+          
+          Add this file _**predict_image.py**_ to the same file or create a new script 
 
-python
-Copy
-Edit
-
-📸 STEP 5: Simulate Dashboard (like Azure Custom Vision)
-After training, you'll see:
-
-Classification report (Precision, Recall, F1)
-
-Accuracy
-
-Visual output of prediction with image
+_**📸 STEP 5: Simulate Dashboard (like Azure Custom Vision)**_
+          
+          > After training, you'll see:
+          > Classification report (Precision, Recall, F1)
+          > Accuracy
+          > Visual output of prediction with image
