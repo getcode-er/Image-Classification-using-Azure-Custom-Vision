@@ -31,7 +31,7 @@ Classify images into 2-3 categories (e.g., Apple, Banana, Orange) using Azure Cu
 
 _**✅ STEP 1: Install Required Libraries**_
          
-          _pip install opencv-python numpy matplotlib scikit-learn_
+          pip install opencv-python numpy matplotlib scikit-learn
 
 _**📁 STEP 2: Project Folder Structure**_
 
@@ -41,17 +41,17 @@ _**📁 STEP 2: Project Folder Structure**_
           ├── banana/       # 10-15 images of bananas
           ├── orange/       # 10-15 images of oranges
           ├── test/         # Test images
-          ├── _train_fruit_classifier.py_
+          ├── _" train_fruit_classifier.py "_
 _You can download free fruit images from : https://www.kaggle.com/moltean/fruits_
 
 _**🧠 STEP 3: Python Code to Train the Classifier**_
 
-          Save the attached _fruit_classifier.py_
+          Save the attached _" train_fruit_classifier.py "_
 
 
 _**🖼️ STEP 4: Test the Model on New Image**_
           
-          Add this file _**predict_image.py**_ to the same file or create a new script 
+          Add this file _" predict_image.py "_ to the same file or create a new script 
 
 _**📸 STEP 5: Simulate Dashboard (like Azure Custom Vision)**_
           
